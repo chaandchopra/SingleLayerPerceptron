@@ -6,14 +6,14 @@ The perceptron works by “learning” a series of weights, corresponding to the
 The final step is to check if our predictions were classified correctly. If they were not, then the weights are updated using a learning rate. This process continues for a certain number of iterations, known as “epochs.” The goal is to determine the weights that produce a linear decision boundary that correctly classifies the predictions.
 
 # Function Used
-getDataVal(FILE *fp)
-initWeight()
-dotProduct(float *, float *)
-activationFunction(float, float)
-errorCheck(int, int)
-updateWeight(float, float, float, int)
-printValues(float *)
-printWeights(float *)
-TestSLP(float *)
-printIris(int)
-ANN- Assignment
+## getDataVal(FILE *fp)
+## initWeight()
+## dotProduct(float *, float *)
+## activationFunction(float, float)
+## errorCheck(int, int)
+## updateWeight(float, float, float, int)
+## printValues(float *)
+## printWeights(float *)
+## TestSLP(float *)
+## printIris(int)
+ANN- Assignment University of Hyderabad

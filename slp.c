@@ -51,8 +51,7 @@ int main()
             if(error != 0)
             {
                 CorrectClass = false;
-                printf("Incorrect Output. Need weights updates..");
-                printf("***********************************************");
+                printf("Incorrect Output.\n Need weights updates..");
                 for(int i = 0; i < CharCount; i++)
                 {
                    
@@ -165,5 +164,4 @@ float * getDataVal(FILE *fp)
         }      
         return values;
     }
-
 }
